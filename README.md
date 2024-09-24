@@ -21,3 +21,15 @@
 ---
 
 这就是我，王艺霏，一个热爱生活、追求成长的探索者。期待与你在GitHub或其他地方相遇，共同创造更多可能！🚀
+#冒泡算法
+function bubbleSort(arr):
+    n = length(arr)
+    for i from 0 to n-2:
+        for j from 0 to n-2-i:
+            if arr[j] > arr[j+1]:
+                swap(arr[j], arr[j+1])
+
+function swap(a, b):
+    temp = a
+    a = b
+    b = temp
